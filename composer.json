@@ -1,0 +1,30 @@
+{
+    "name": "nnwokolo24/igodo",
+    "description": "A simple php library that does a lot of cool stuff for you",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Nnwokolo24\\Igodo\\": "src/",
+            "App\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Bueze Nwokolo",
+            "email": "55523993+nwokolo24@users.noreply.github.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "monolog/monolog": "^3.9"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.5"
+    }
+}

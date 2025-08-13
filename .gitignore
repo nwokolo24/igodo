@@ -1,0 +1,49 @@
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE & Editor Files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+*.swp
+*.swo
+.project
+.buildpath
+.settings/
+nbproject/
+
+# PHP Dependencies & Tools
+/vendor/
+composer.phar
+.phpunit.result.cache
+.phpunit.cache/
+phpunit.xml.dist
+phpDocumentor.phar
+phpdoc.xml
+.php-cs-fixer.cache
+.php_cs.cache
+.php_cs
+
+# Build & Test Artifacts
+/build/
+/coverage/
+/clover.xml
+/*.phar
+/phpcs.xml
+/docs/
+/phpmd.xml
+
+# Application Specific
+/logs/*.log
+!logs/.gitkeep
+.env
+.env.local
+.env.*.local
