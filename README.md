@@ -13,7 +13,7 @@ A simple PHP library for comprehensive HTTP request logging using Monolog.
 ## Installation
 
 ```bash
-composer require nnwokolo24/igodo
+composer require nwokolo24/igodo
 ```
 
 ## Usage

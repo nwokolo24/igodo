@@ -1,11 +1,11 @@
 {
-    "name": "nnwokolo24/igodo",
+    "name": "nwokolo24/igodo",
     "description": "A simple php library that does a lot of cool stuff for you",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Nnwokolo24\\Igodo\\": "src/",
+            "Nwokolo24\\Igodo\\": "src/",
             "App\\": "src/"
         }
     },
