@@ -12,8 +12,37 @@ A simple PHP library for comprehensive HTTP request logging using Monolog.
 
 ## Installation
 
+### From GitHub (Recommended)
+
+Add the repository to your project's `composer.json`:
+
+```json
+{
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/nwokolo24/igodo"
+        }
+    ],
+    "require": {
+        "nwokolo24/igodo": "dev-main"
+    }
+}
+```
+
+Or use these commands:
+
 ```bash
-composer require nwokolo24/igodo
+composer config repositories.igodo vcs https://github.com/nwokolo24/igodo
+composer require nwokolo24/igodo:dev-main
+```
+
+### Using a Specific Version
+
+When we create releases with version tags, you can require a specific version:
+
+```bash
+composer require nwokolo24/igodo:^1.0
 ```
 
 ## Usage
